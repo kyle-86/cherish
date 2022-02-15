@@ -1,0 +1,31 @@
+/* ! 
+Theme Name: Cherish
+Description: A responsive WordPress theme by Thirteen Digital
+Author: Thirteen Digital
+Author URI: http://www.thirteendigital.com.au
+Version: 0.0.1
+*/
+
+// Fonts
+	@import "fonts/font-awesome/all.css";
+// Base
+	@import "variables";
+	@import "mixins";
+	@import "reset";
+	@import "spacing";
+	@import "helper";
+// Vendor
+	@import "vendor/magnific-popup.scss";
+	@import "vendor/slick.scss";
+	//@import "vendor/selectric.scss";
+	@import "vendor/jquery.roadmap.scss";
+// Layout
+	@import "animation";
+	@import "global";
+	@import "typography";
+	@import "forms";
+	@import "navigation";
+	@import "media";
+	@import "layout";
+// Dark Theme
+	@import "dark";

@@ -1,0 +1,29 @@
+// Default
+	$space-s: 2.5rem; // 40
+	$space-m: 5rem; // 80
+	$space-l: 7.5rem; // 120
+// Phone
+	$space-s-phone: 20px;
+	$space-m-phone: 32px;
+	$space-l-phone: 60px;
+// Spacer item
+	.spacer--s {
+		height: $space-s;
+	}
+	.spacer--m {
+		height: $space-m;
+	}
+	.spacer--l {
+		height: $space-l;
+	}
+	@include phone {
+		.spacer--s {
+			height: $space-s-phone;
+		}
+		.spacer--m {
+			height: $space-m-phone;
+		}
+		.spacer--l {
+			height: $space-l-phone;
+		}
+	}
